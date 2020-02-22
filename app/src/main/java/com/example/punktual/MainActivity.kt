@@ -60,7 +60,7 @@ class MainActivity : AppCompatActivity() {
             }
             else{
 
-                Toast.makeText(this,""+response!!.error!!.message,Toast.LENGTH_SHORT).show()
+                Toast.makeText(this,"Une erreur c'est produite ! " + response!!.error!!.message,Toast.LENGTH_SHORT).show()
 
             }
         }
